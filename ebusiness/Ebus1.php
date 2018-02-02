@@ -4,7 +4,7 @@
         <title>Select Product</title>
         
         <!--jquery-->
-       <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
     </head>
             
@@ -48,7 +48,7 @@
         
         </br>
         
-        <button type "submit"id="btnProceed" disabled>Add to Shopping Cart</button>
+        <button type "submit" id="btnProceed" disabled>Add to Shopping Cart</button>
         
         </form>
         
