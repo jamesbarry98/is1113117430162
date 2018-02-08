@@ -22,7 +22,6 @@
             <br/>
             <button onClick="validateDetails()">Validate</button>
             
-        </div>
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </body>
