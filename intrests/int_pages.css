@@ -10,7 +10,22 @@
     background-color:  #3333cc;
 }
 
+#section4{
+    background-color:  #bb33ff;
+}
+
 .section{
     text-align: center;
     color: white;
+}
+
+.button {
+    background-color: #3399ff; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
