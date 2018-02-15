@@ -27,7 +27,21 @@
  
         <label for ="aws">
             <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-            aws @$300
+            Amazon Web Services @$300
+        </label>
+        
+        </br>
+        
+         <label for ="Cloud 9">
+            <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/>
+            Cloud 9 @$200
+        </label>
+        
+         </br>
+        
+         <label for ="Gmail">
+            <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
+            Gmail @$400
         </label>
         
         </br>
@@ -41,9 +55,23 @@
         
         </br>
         
+        <label for ="discount">
+        Discount @ 5%
+            <input type="text" id="discount" value="0.00" read only/>
+        </label>
+        
+        </br>
+        
+        <label for ="Vat">
+        Vat @ 10%
+            <input type="text" id="vat" value="0.00" read only/>
+        </label>
+        
+        </br>
+        
         <label for ="total">
         Total
-            <input type="text" id="total" value="0.00" read only/>
+            <input type="text" id="total" name="total" value="0.00" read only/>
         </label>
         
         </br>
