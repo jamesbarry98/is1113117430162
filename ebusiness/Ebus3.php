@@ -14,4 +14,4 @@ session_start();
         echo "Total is " . $_SESSION["total"] . ".";
         ?>
     </body>
-</html>
+</html> 
