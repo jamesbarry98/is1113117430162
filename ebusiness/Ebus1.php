@@ -2,16 +2,28 @@
 <html>   
     <head>
         <title>Select Product</title>
+        <link rel="stylesheet" href="ebus_pages.css" type="text/css" />
         
         <!--jquery-->
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
     </head>
+       
+    <style>
+       body {
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+	 background-position: center center;
+       }
+    
+    </style>     
             
-      <body>
+            
+      <body background="https://i.ytimg.com/vi/6C6FrVkLmPA/maxresdefault.jpg">
       
-      
-        <h1>Select a Product</h1>
+        <div style= "text-align: center;">
+        <h1 class="mainheading">Select a Product</h1>
         
         
         </br>
@@ -85,4 +97,5 @@
         <a role="button" href="Ebus1.php">Clear Choice</a>
         
         </body>
+        </div>
 </html>
