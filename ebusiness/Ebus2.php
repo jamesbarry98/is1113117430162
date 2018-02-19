@@ -6,24 +6,39 @@ session_start();
 <html>
     <head>
         <title>Enter Details</title>
+         <link rel="stylesheet" href="ebus_pages.css" type="text/css" />
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
-    <body>
-        <h4>Please enter your payment details</h4>
+    
+     <style>
+       body {
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+	 background-position: center center;
+       }
+    
+    </style>
+    
+    <body background="https://i.ytimg.com/vi/6C6FrVkLmPA/maxresdefault.jpg">
+        
+        <div style= "text-align: center;">
+        
+        <h2 class="mainheading">Please enter your payment details</h2>
         
         
             <form action="Ebus3.php" method="POST">
 
                     <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" placeholder="fullname">
+                    <input type="text" name="fullname" id="fullname" placeholder="fullname">
                     
                     </br>
                     
                     <label for="email">Email Address:</label>
-                    <input type="text" id="email" placeholder="Email Address">
+                    <input type="text" name="email" id="email" placeholder="Email Address">
                     
                     </br>
                     
@@ -35,13 +50,12 @@ session_start();
             </form>
             
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            <button class="button" onClick="validateDetails()">Validate</button>
   
         <?php
             // Set session variables
             $_SESSION["total"] = $_POST["total"];
-            $_SESSION["fullname"] = $_POST["fullname"];
-            $_SESSION["email"] = $_POST["email"];
-            ?>
+        ?>
+        </div>
     </body>
 </html>

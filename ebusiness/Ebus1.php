@@ -88,14 +88,13 @@
         
         </br>
         
-        <button type "submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+        <button class="button1" type "submit" id="btnProceed" disabled>Add to Shopping Cart</button>
         
         </form>
         
         </br>
-        <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
-        
+        <button class="button" onClick="calcSub()">Calculate Cost</button>
+        <a href="Ebus1.php"><button class="button2">Clear Choice</button></a>
         </body>
         </div>
 </html>
