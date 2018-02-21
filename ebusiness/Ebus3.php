@@ -61,8 +61,8 @@ session_start();
         // Echo session variables that were set on previous page
         $fullname = $_POST['fullname'];
         $email = $_POST['email'];
-        echo "Total Price: $" . $_SESSION["total"] . ".</br>"; 
-        echo "Name: $fullname </br> Email: $email"
+        echo "Total Price: $" . $_SESSION["total"] . ".</br></br></br>"; 
+        echo "Name: $fullname </br></br></br> Email: $email"
         ?>
    
         </div> 
