@@ -21,14 +21,13 @@ function calcSub(){
     }
     
     
-    display(argSubTotal);
+
     calcDisVatTotal(argSubTotal);
-    
+    display(argSubTotal);
     
 }
 
-function calcDisVatTotal(){
-    parmSubTotal
+function calcDisVatTotal(argSubTotal){
     var argdiscount;
     
     argdiscount = .05 * argSubTotal;
@@ -37,10 +36,11 @@ function calcDisVatTotal(){
 }
 
     
-function display(parm1){
+function display(parm1,parm2){
   
   document.getElementById("subtotal").value = parm1;
   document.getElementById("total").value = parm1;
+  document.getElementById("discount").value = parm2;
   
         
   enablebtnProceed();

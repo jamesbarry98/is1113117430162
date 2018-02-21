@@ -17,9 +17,42 @@ session_start();
 	 background-position: center center;
        }
     
+    ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                }
+
+            li {
+                float: left;
+                }
+
+            li a {
+                display: block;
+                color: #666;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+            li a:hover:not(.active) {
+                  background-color: #ddd;
+                }
+
+                .active {
+                color: white;
+                background-color: #000000;
+                }
+    
     </style>
     
     <body background="https://i.ytimg.com/vi/6C6FrVkLmPA/maxresdefault.jpg">
+        
+         <ul>
+          <li style><a class="active" href="../homepage.html">Home</a></li>
+          
+        </ul>
         
         <div style= "text-align: center;">
         <h2>Purchase Receipt</h2>
@@ -28,7 +61,7 @@ session_start();
         // Echo session variables that were set on previous page
         $fullname = $_POST['fullname'];
         $email = $_POST['email'];
-        echo "Total Price: " . $_SESSION["total"] . ".</br>"; 
+        echo "Total Price: $" . $_SESSION["total"] . ".</br>"; 
         echo "Name: $fullname </br> Email: $email"
         ?>
    
