@@ -33,3 +33,10 @@
 .ex1 {
     margin-left: 30px;
     }
+    
+
+.bordered {
+    padding: 20px;
+    border: solid ;
+    border-radius: 8px;
+   }
