@@ -54,7 +54,7 @@ session_start();
     <body background="https://i.ytimg.com/vi/6C6FrVkLmPA/maxresdefault.jpg">
         
          <ul>
-          <li style><a class="active" href="../homepage.html">Home</a></li>
+          <li style><a class="active" href="cloudhomepage.html">Home</a></li>
           
         </ul>
         
