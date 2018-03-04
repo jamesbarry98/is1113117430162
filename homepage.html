@@ -56,6 +56,14 @@ li {
     border-right:1px solid #bbb; /* shadow grey */
 }
 
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 li:last-child {
     border-right: none;
 }
@@ -70,6 +78,16 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #111; /* shadow black color */
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .active {
