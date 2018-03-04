@@ -2,12 +2,13 @@
 <html>   
     <head>
         <title>117430162</title>
+        <!-- linking to my style sheet -->
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
     </head>
    
    <style>
        body {
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; /*The following will stop tiling and make the background image fill the page*/
     background-size: 100% 100%;
     background-attachment:fixed;
 	 background-position: center center;
@@ -18,20 +19,20 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #333; /* grey color */
 }
 
-ul.topnav {
+ul.topnav { /* the following topnavs to be used for mobile users */
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #333; /* grey color */
 }
 
 ul.topnav li {float: left;}
 
-ul.topnav li a {
+ul.topnav li a { /* mobile user features */
     display: block;
     color: white;
     text-align: center;
@@ -39,20 +40,20 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {background-color: #111;} /* shadow black color */
 
-ul.topnav li a.active {background-color: #33C1FF0;}
+ul.topnav li a.active {background-color: #33C1FF0;} /* light blue color */
 
 ul.topnav li.right {float: right;}
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px){ /* mobile user features */
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
 
 li {
     float: left;
-    border-right:1px solid #bbb;
+    border-right:1px solid #bbb; /* shadow grey */
 }
 
 li:last-child {
@@ -68,18 +69,18 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #111; /* shadow black color */
 }
 
 .active {
-    background-color: #33C1FF;
+    background-color: #33C1FF; /* light blue color */
 }
    </style>
    
-    <body background="https://images7.alphacoders.com/456/thumb-1920-456840.jpg">
+    <body background="https://images7.alphacoders.com/456/thumb-1920-456840.jpg"> <!-- the image address for my background image -->
         <h1 class="mainheading">117430162 - IS1113 Project</h1>
         
-        <ul class="topnav">
+        <ul class="topnav"> <!-- mobile use -->
   <li><a class="active" href="homepage.html">Home</a></li>
   <li class="dropdown">
   <a href="javascript:void(0)" class="dropbtn">Curriculum Vitae</a>
@@ -89,7 +90,7 @@ li a:hover:not(.active) {
       <a href="cv/cv_page3.html">Work Experience</a>
     </div>
   </li>
-  <li class="dropdown">
+  <li class="dropdown"> <!-- dropdown bar -->
   <a href="javascript:void(0)" class="dropbtn">Interests</a>
   <div class="dropdown-content">
       <a href="intrests/sports.html">Sports</a>
@@ -108,6 +109,7 @@ li a:hover:not(.active) {
      <div class="wrapper">
          <h3>Helpful Links</h3>
    
+   <!-- the folllowing images have website links embedded in them -->
    <a href="https://www.w3schools.com/"><img src="https://lh3.googleusercontent.com/n1wGFhqdJ-_PZT7UDbWpTvLRpCBQ8ItKOBi812y7K0xxHriiCMkniWXLPIbUxRCfVw=h355" width="64" height="64"></img></a>
    <a href="https://www.ucc.ie/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhix73KYIL7nh-ohaB_n5KH48lOM_nDytN08Xv26-QNYiEdRw" width="64" height="64"></img></a>
    <a href="http://sport.ucc.ie/"><img src="http://sport.ucc.ie/wp-content/uploads/2017/04/cropped-1200px_UCC-Sport.png" width="64" height="64"></img></a>

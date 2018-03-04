@@ -2,12 +2,13 @@
 <html>   
     <head>
         <title>Barry's Cloud Services</title>
+        <!-- linking to my style sheet -->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
     </head>
    
    <style>
        body {
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; /*The following will stop tiling and make the background image fill the page*/
     background-size: 100% 100%;
     background-attachment:fixed;
 	 background-position: center center;
@@ -18,12 +19,12 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #333; /* grey color */
 }
 
 li {
     float: left;
-    border-right:1px solid #bbb;
+    border-right:1px solid #bbb; /* grey color */
 }
 
 li:last-child {
@@ -38,18 +39,12 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #33C1FF;
-}
    </style>
    
-    <body background="https://s3.amazonaws.com/production-wordpress-assets/blog/wp-content/uploads/2017/01/19072824/the-cloud.jpg">
+    <body background="https://s3.amazonaws.com/production-wordpress-assets/blog/wp-content/uploads/2017/01/19072824/the-cloud.jpg"> <!-- the image address for my background image -->
         <h1 class="mainheading">Barry's Cloud Services</h1>
         
+        <!-- creating a navbar -->
         <ul>
   <li><a class="active" href="cloudhomepage.html">Home</a></li>
   <li><a href="saas_salesforce.html">Salesforce</a></li>

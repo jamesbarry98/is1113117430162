@@ -2,7 +2,7 @@
 
 function calcSub(){
     
-    var argSubTotal;
+    var argSubTotal; 
     
     if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
@@ -20,11 +20,11 @@ function calcSub(){
       argSubTotal = 400;
     }
     
-    calcDisVatTotal(argSubTotal);
+    calcDisVatTotal(argSubTotal); /* this passes the sub total onto my next function */
     
 }
 
-function calcDisVatTotal(parmSubTotal){
+function calcDisVatTotal(parmSubTotal){ /* parmsubtotal accepts the passed value */
     var argSubTotal;
     var argDiscount;
     var argVat;
@@ -35,7 +35,7 @@ function calcDisVatTotal(parmSubTotal){
     argVat = (argSubTotal-argDiscount) * .1;
     argTotalPrice = argSubTotal -argDiscount + argVat;
     
-    display(argSubTotal, argDiscount, argVat, argTotalPrice);
+    display(argSubTotal, argDiscount, argVat, argTotalPrice); /* again pass the relivant figures */
 }
 
     

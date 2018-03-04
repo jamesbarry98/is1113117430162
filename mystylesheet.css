@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #E7E4E4;
+    background-color: #E7E4E4; /* shadow grey */
     color: black;
 }
 
@@ -19,7 +19,7 @@ div {
 footer {
     width:100%;
     background-color:#767676;
-    position: fixed;
+    position: fixed; /* making the footer always appear at the bottom of the screen */
     right: 0;
     bottom: 0;
     left: 0;
@@ -43,8 +43,8 @@ p {
     color: black;
     float: left;
     padding: 8px 16px;
-    border: 1px solid #000;
-    background-color: #767676;
+    border: 1px solid #000; /* black */
+    background-color: #767676; /* grey */
 }
 
 li a, .dropbtn {
@@ -62,7 +62,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #333; /* dark grey */
     min-width: 160px;
     z-index: 1;
 }
