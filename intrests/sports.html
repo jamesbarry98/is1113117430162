@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Sports</title>
+        <!-- linking to my style sheet -->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
         <link rel="stylesheet" href="int_pages.css" type="text/css" />
         
@@ -10,7 +11,7 @@
     
     <style>
        body {
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; /*The following will stop tiling and make the background image fill the page*/
     background-size: 100% 100%;
     background-attachment:fixed;
 	 background-position: center center;
@@ -21,8 +22,8 @@
                 margin: 0;
                 padding: 0;
                 overflow: hidden;
-                border: 1px solid #e7e7e7;
-                background-color: #f3f3f3;
+                border: 1px solid #e7e7e7; /* GREY */
+                background-color: #f3f3f3;/* LIGHT GREY */
                 }
 
         li {
@@ -31,26 +32,26 @@
 
         li a {
                 display: block;
-                color: #666;
+                color: #666; /* DARK GREY */
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
                 }
 
         li a:hover:not(.active) {
-                  background-color: #ddd;
+                  background-color: #ddd; /* LIGHT GREY */
                 }
 
                 .active {
                 color: white;
-                background-color: #33ccff;
+                background-color: #33ccff; /* LIGHT BLUE */
                 }
     
     </style>
     
-    <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0jWBGtX5kzEhR6P5skjf5-DjSYESulEmo9dnFZTXVnJjRORwdOA">
+    <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0jWBGtX5kzEhR6P5skjf5-DjSYESulEmo9dnFZTXVnJjRORwdOA"> <!-- the image address for my background image -->
         
-        <ul>
+        <ul> <!-- NAV BAR FOR EASE OF MOVEMENT TO PAGES -->
           <li><a class="active" href="../homepage.html">Home</a></li>
           <li><a href="coastguard.html">Coast Guard</a></li>
           <li><a href="travel.html">Travel</a></li>

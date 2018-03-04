@@ -1,17 +1,17 @@
 #section1{
-    background-color: #ff6600;
+    background-color: #ff6600; /* orange*/
 }
 
 #section2{
-    background-color: #0099ff;
+    background-color: #0099ff; /* blue */
 }
 
 #section3{
-    background-color:  #3333cc;
+    background-color:  #3333cc; /* purple/blue*/
 }
 
 #section4{
-    background-color:  #bb33ff;
+    background-color:  #bb33ff; /*purple*/
 }
 
 .section{
