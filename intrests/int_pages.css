@@ -14,6 +14,22 @@
     background-color:  #bb33ff; /*purple*/
 }
 
+#section5{
+    background-color:  #006699; /*navy*/
+}
+
+#section6{
+    background-color:  #00b300; /*green*/
+}
+
+#section7{
+    background-color:  #e63900; /*deep red*/
+}
+
+#section8{
+    background-color:  #3333cc; /*blue/purple*/
+}
+
 .section{
     text-align: center;
     color: white;
