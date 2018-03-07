@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>   
     <head>
+        <meta charset="utf-8"/> 
         <title>Barry's Cloud Services</title>
         <!-- linking to my style sheet -->
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-    </head>
-   
-   <style>
+    
+    <style>
        body {
-	background-repeat: no-repeat; /*The following will stop tiling and make the background image fill the page*/
+	background: url("https://s3.amazonaws.com/production-wordpress-assets/blog/wp-content/uploads/2017/01/19072824/the-cloud.jpg") /*the image address for my background image*/
+    no-repeat center center fixed; /*insures no tiling so improves graphics*/
     background-size: 100% 100%;
     background-attachment:fixed;
-	 background-position: center center;
+	background-position: center center;
        }
        
        ul {
@@ -20,38 +21,41 @@
     padding: 0;
     overflow: hidden;
     background-color: #333; /* grey color */
-}
+            }
 
-li {
+        li {
     float: left;
     border-right:1px solid #bbb; /* grey color */
-}
+            }
 
-li:last-child {
+        li:last-child {
     border-right: none;
-}
+            }
 
-li a {
+        li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+            }
 
    </style>
+    </head>
    
-    <body background="https://s3.amazonaws.com/production-wordpress-assets/blog/wp-content/uploads/2017/01/19072824/the-cloud.jpg"> <!-- the image address for my background image -->
+   
+   
+    <body> 
         <h1 class="mainheading">Barry's Cloud Services</h1>
         
         <!-- creating a navbar -->
         <ul>
   <li><a class="active" href="cloudhomepage.html">Home</a></li>
   <li><a href="aboutcloud.html">About Cloud</a></li>
-  <li><a href="saas_salesforce.html">Salesforce</a></li>
-  <li><a href="paas_cloud9.html">Cloud 9</a></li>
-  <li><a href="iaas_amazon.html">Amazon</a></li>
   <li><a href="caas_gmail.html">Gmail</a></li>
+   <li><a href="iaas_amazon.html">Amazon</a></li>
+   <li><a href="paas_cloud9.html">Cloud 9</a></li>
+  <li><a href="saas_salesforce.html">Salesforce</a></li>
   <li><a href="Ebus1.php">Store</a></li>
   <li style="float:right"><a href="../homepage.html">IS1113 Project</a></li>
         </ul>

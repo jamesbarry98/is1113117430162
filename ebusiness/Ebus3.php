@@ -4,21 +4,18 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <title>RECEIPT</title>
-        <!-- linking to my style sheet -->
-        <link rel="stylesheet" href="ebus_pages.css" type="text/css" />
+        <meta charset="utf-8"/>
         
-    </head>
+        <style>
+           body{
+                background: url("https://i.ytimg.com/vi/6C6FrVkLmPA/maxresdefault.jpg") /*the image address for my background image*/
+                no-repeat center center fixed; /*insures no tiling so improves graphics*/
+                background-size: 100% 100%;
+                background-attachment:fixed;
+	            background-position: center center;
+                }
     
-     <style>
-       body {
-	background-repeat: no-repeat; /*The following will stop tiling and make the background image fill the page*/
-    background-size: 100% 100%;
-    background-attachment:fixed;
-	 background-position: center center;
-       }
-    
-    ul {
+            ul {
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
@@ -47,8 +44,14 @@ session_start();
                 }
     
     </style>
-    
-    <body background="https://i.ytimg.com/vi/6C6FrVkLmPA/maxresdefault.jpg"> <!-- the image address for my background image -->
+        
+        <title>RECEIPT</title>
+        <!-- linking to my style sheet -->
+        <link rel="stylesheet" href="ebus_pages.css" type="text/css" />
+        
+    </head>
+ 
+    <body>
         
          <ul>
           <li style><a class="active" href="cloudhomepage.html">Home</a></li>
@@ -61,9 +64,13 @@ session_start();
         <?php
         // Echo session variables that were set on previous page and display them on this page
         $fullname = $_POST['fullname'];
+        $homeaddress = $_POST['homeaddress'];
+        $cardnumber = $_POST['cardnumber'];
+        $user_pin = $_POST['user_pin'];
         $email = $_POST['email'];
-        echo "Total Price: $" . $_SESSION["total"] . ".</br></br></br>"; 
-        echo "Name: $fullname </br></br></br> Email: $email"
+        
+        echo "Total Price: $" . $_SESSION["total"] . ".<br/><br/><br/>"; 
+        echo "Name: $fullname <br/><br/><br/> Home Address: $homeaddress <br/><br/><br/> Email: $email"
         ?>
    
         </div> 
