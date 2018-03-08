@@ -1,101 +1,101 @@
 <!DOCTYPE html>
 <html>   
     <head>
+        <meta charset="utf-8"/> 
+        <style>
+           body{
+                background: url("https://images7.alphacoders.com/456/thumb-1920-456840.jpg") /*the image address for my background image*/
+                no-repeat center center fixed; /*insures no tiling so improves graphics*/
+                background-size: 100% 100%;
+                background-attachment:fixed;
+	            background-position: center center;
+                }
+       
+           ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333; /* grey color */
+                }
+
+            ul.topnav { /* the following topnavs to be used for mobile users */
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333; /* grey color */
+                }
+
+            ul.topnav li {float: left;}
+
+            ul.topnav li a { /* mobile user features */
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }        
+
+            ul.topnav li a:hover:not(.active) {background-color: #111;} /* shadow black color */
+
+            ul.topnav li.right {float: right;}
+
+            @media screen and (max-width: 600px){ /* mobile user features */
+            ul.topnav li.right, 
+            ul.topnav li {float: none;}
+                }
+
+            li {
+                float: left;
+                border-right:1px solid #bbb; /* shadow grey */
+                }
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                    }
+
+            li:last-child {
+                border-right: none;
+                }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+            li a:hover:not(.active) {
+                background-color: #111; /* shadow black color */
+                }
+
+            .dropdown {
+                display: inline-block;
+                }
+
+            .dropdown-content a:hover {background-color: #f1f1f1}
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+                    }
+
+            .active {
+                background-color: #33C1FF; /* light blue color */
+                }
+       </style>
+        
         <title>117430162</title>
         <!-- linking to my style sheet -->
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
     </head>
    
-   <style>
-       body {
-	background-repeat: no-repeat; /*The following will stop tiling and make the background image fill the page*/
-    background-size: 100% 100%;
-    background-attachment:fixed;
-	 background-position: center center;
-       }
-       
-       ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333; /* grey color */
-}
-
-ul.topnav { /* the following topnavs to be used for mobile users */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333; /* grey color */
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a { /* mobile user features */
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #111;} /* shadow black color */
-
-ul.topnav li a.active {background-color: #33C1FF0;} /* light blue color */
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px){ /* mobile user features */
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-}
-
-li {
-    float: left;
-    border-right:1px solid #bbb; /* shadow grey */
-}
-
-li a, .dropbtn {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li:last-child {
-    border-right: none;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111; /* shadow black color */
-}
-
-.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.active {
-    background-color: #33C1FF; /* light blue color */
-}
-   </style>
-   
-    <body background="https://images7.alphacoders.com/456/thumb-1920-456840.jpg"> <!-- the image address for my background image -->
+    <body>
         <h1 class="mainheading">117430162 - IS1113 Project</h1>
         
         <ul class="topnav"> <!-- mobile use -->
@@ -104,7 +104,7 @@ li a:hover:not(.active) {
   <a href="javascript:void(0)" class="dropbtn">Curriculum Vitae</a>
   <div class="dropdown-content">
       <a href="cv/cv_page1.html">Personal Details</a>
-      <a href="cv/cv_page2.html">Educational Details</a>
+      <a href="cv/cv_page2.html">Education Details</a>
       <a href="cv/cv_page3.html">Work Experience</a>
       <a href="cv/cv_page4.html">Achievements/Awards</a>
     </div>
@@ -129,9 +129,9 @@ li a:hover:not(.active) {
          <h3>Helpful Links</h3>
    
    <!-- the folllowing images have website links embedded in them -->
-   <a href="https://www.w3schools.com/"><img src="https://lh3.googleusercontent.com/n1wGFhqdJ-_PZT7UDbWpTvLRpCBQ8ItKOBi812y7K0xxHriiCMkniWXLPIbUxRCfVw=h355" width="64" height="64"></img></a>
-   <a href="https://www.ucc.ie/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhix73KYIL7nh-ohaB_n5KH48lOM_nDytN08Xv26-QNYiEdRw" width="64" height="64"></img></a>
-   <a href="http://sport.ucc.ie/"><img src="http://sport.ucc.ie/wp-content/uploads/2017/04/cropped-1200px_UCC-Sport.png" width="64" height="64"></img></a>
+   <a href="https://www.w3schools.com/"><img src="https://lh3.googleusercontent.com/n1wGFhqdJ-_PZT7UDbWpTvLRpCBQ8ItKOBi812y7K0xxHriiCMkniWXLPIbUxRCfVw=h355" alt="w3" width="64" height="64"></a>
+   <a href="https://www.ucc.ie/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhix73KYIL7nh-ohaB_n5KH48lOM_nDytN08Xv26-QNYiEdRw" alt="ucc"  width="64" height="64"></a>
+   <a href="http://sport.ucc.ie/"><img src="http://sport.ucc.ie/wp-content/uploads/2017/04/cropped-1200px_UCC-Sport.png" alt="uccsport"  width="64" height="64"></a>
          
      </div>
    </footer>

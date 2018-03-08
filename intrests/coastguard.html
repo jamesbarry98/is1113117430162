@@ -1,15 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Irish Coast Guard</title>
-        <!-- linking to my style sheet -->
-        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
-        <link rel="stylesheet" href="int_pages.css" type="text/css" />
-        
-       
-    </head>
-    
-    <style>
+        <meta charset="utf-8"/>
+        <style>
        body {
 	background-repeat: no-repeat; /*The following will stop tiling and make the background image fill the page*/
     background-size: 100% 100%;
@@ -46,10 +39,26 @@
                 color: white;
                 background-color: #33ccff; /* LIGHT BLUE */
                 }
+                
+        body{
+                background: url("https://img.rasset.ie/000df198-800.jpg") /*the image address for my background image*/
+                no-repeat center center fixed; /*insures no tiling so improves graphics*/
+                background-size: 100% 100%;
+                background-attachment:fixed;
+	            background-position: center center;
+                }
     
     </style>
+        
+        <title>Irish Coast Guard</title>
+        <!-- linking to my style sheet -->
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+        <link rel="stylesheet" href="int_pages.css" type="text/css" />
+        
+       
+    </head>
     
-    <body background="https://img.rasset.ie/000df198-800.jpg"> <!-- the image address for my background image -->
+    <body>
         
         <ul> <!-- NAV BAR FOR EASE OF MOVEMENT TO PAGES -->
           <li><a class="active" href="../homepage.html">Home</a></li>
@@ -82,9 +91,8 @@
         
  <footer>      
 <div style= "text-align: center;"> 
-<a href="sports.html"><button class="button">Sports</button></a>
-<a href="travel.html"><button class="button">Travel Information</button></a>
-
+<button class="button" onclick="location.href='sports.html'">Sports</button>
+<button class="button" onclick="location.href='travel.html'">Travel Information</button>
 
 </div>
 </footer>
